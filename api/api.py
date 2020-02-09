@@ -1,4 +1,4 @@
-# Sorrow446.
+# Sorrow446
 
 import os
 import re
