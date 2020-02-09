@@ -120,7 +120,8 @@ def make_pdf(abs, images, title):
 
 def make_cbz(abs, images):
 	with zipfile.ZipFile(abs, 'w', zipfile.ZIP_STORED) as f:
-		for i in images: f.write(i)
+		for i in images:
+			f.write(i)
 	
 def write_meta(meta_abs, meta):
 	with open(meta_abs, 'w') as f: 
