@@ -170,7 +170,6 @@ def main():
 				print(e)
 				sys.exit(1)
 			images = [os.path.join(tmp_dir, i) for i in os.listdir(tmp_dir)]
-			meta_abs = os.path.join(dl_dir, '{}_meta.json'.format(title_s))
 			print('Converting to {}...'.format(fmt.upper()))
 			if fmt == 'pdf':
 				make_pdf(abs, images, title)
@@ -178,6 +177,7 @@ def main():
 				make_cbz(abs, images)
 			if args.meta:
 				print("Writing metadata to JSON file...")
+				meta_abs = os.path.join(dl_dir, '{}_meta.json'.format(title_s))
 				write_meta(meta_abs, meta)
 			for i in images:
 				os.remove(i)
