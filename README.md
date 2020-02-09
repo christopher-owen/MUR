@@ -1,5 +1,5 @@
 # MUR
-Tool written in python to download comics from Marvel Unlimited.   
+Tool written in Python to download comics from Marvel Unlimited.   
 [Windows binaries](https://github.com/Sorrow446/MUR/releases)
 
 **People have been seen selling my tools; DO NOT buy them. My tools are free and always will be.**
