@@ -1,5 +1,5 @@
 # MUR
-Tool written in python to download booklets from Marvel Unlimited.   
+Tool written in python to download comics from Marvel Unlimited.   
 [Windows binaries](https://github.com/Sorrow446/MUR/releases)
 
 **People have been seen selling my tools; DO NOT buy them. My tools are free and always will be.**
@@ -26,10 +26,10 @@ Your cookies may become unusable after a long while; just repeat the dumping pro
 # Usage
 MUR may only be used via CLI.
 
-Download a single booklet and convert to PDF:   
+Download a single comic and convert to PDF:   
 `MUR.py -u https://www.marvel.com/comics/issue/67930/captain_america_2018_12 -f pdf`
 
-Download multiple booklets, convert to CBZ and write booklet metadata to JSON file:   
+Download two comics, convert to CBZ and write comic's metadata to JSON file:   
 `MUR.py -u https://www.marvel.com/comics/issue/... https://www.marvel.com/comics/issue/... -f cbz -m`
 ```
 usage: mur.py [-h] -u [URL [URL ...]] -f {cbz,pdf} [-m]
