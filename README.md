@@ -6,6 +6,14 @@ Tool written in python to download booklets from Marvel Unlimited.
 
 ![](https://orion.feralhosting.com/sorrow/mur.png)
 
+# Features
+- Lossless exporting to CBZ or PDF.   
+*Comics are provided by MARVEL as JPGs. MUR doesn't apply any compression whatsoever.
+- Multi-URL input support via CLI.
+- Write comic metadata to JSON file.
+- Multi-platform support.
+- F-string-free; may also work on Python 2.
+
 # Setup
 **A subscripton is required to use this tool.**  
 1. Login to [Marvel](http://www.marvel.com/).
