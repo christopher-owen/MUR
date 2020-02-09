@@ -1,5 +1,4 @@
-#!/usr/bin/env python3
-#Sorrow446.
+# Sorrow446.
 
 import os
 import re
