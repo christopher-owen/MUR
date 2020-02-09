@@ -11,6 +11,8 @@ Tool written in python to download booklets from Marvel Unlimited.
 3. Dump cookies to txt file (current tab only).
 4. Move "cookies.txt" to MUR's directory.
 
+Your cookies may become unusable after a long while; just repeat the dumping process.
+
 # Usage
 MUR may only be used via CLI.
 
