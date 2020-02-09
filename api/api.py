@@ -9,7 +9,7 @@ from api.exceptions import IneligibleError
 
 class Client:
 
-	def __init__(self, **kwargs):
+	def __init__(self):
 		self.session = requests.Session()
 		self.session.headers.update({
 			'User-Agent':'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0'
