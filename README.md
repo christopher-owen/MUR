@@ -1,6 +1,6 @@
 # MUR
 Tool written in python to download booklets from Marvel Unlimited.   
-[Windows binaries]()
+[Windows binaries](https://github.com/Sorrow446/MUR/releases)
  
 **People have been seen selling my tools; DO NOT buy them. My tools are free and always will be.**
 
