@@ -12,7 +12,7 @@ Tool written in python to download booklets from Marvel Unlimited.
 4. Move "cookies.txt" to MUR's directory.
 
 # Usage
-MUR may only be used via CLI. Don't be put off if you're not familiar with it; it's simple.
+MUR may only be used via CLI.
 
 Download a single booklet and convert to PDF:   
 `MUR.py -u https://www.marvel.com/comics/issue/67930/captain_america_2018_12 -f pdf`
