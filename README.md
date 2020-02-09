@@ -4,7 +4,7 @@ Tool written in python to download comics from Marvel Unlimited.
 
 **People have been seen selling my tools; DO NOT buy them. My tools are free and always will be.**
 
-![](https://orion.feralhosting.com/sorrow/mur.png)
+![](https://orion.feralhosting.com/sorrow/MUR.png)
 
 # Features
 - Lossless exporting to CBZ or PDF.   
