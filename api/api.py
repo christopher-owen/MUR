@@ -24,8 +24,8 @@ class Client:
 		regex = r'digital_comic_id :  "(([0-9]{5}))"'
 		return re.search(regex, r.text).group(1)
 	
-	def make_call(self, epoint, json=None, params=None):
-		r = self.session.get(self.base+epoint, json=json, params=params)
+	def make_call(self, epoint, params=None):
+		r = self.session.get(self.base+epoint, params=params)
 		r.raise_for_status()
 		return r
 
