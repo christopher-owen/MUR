@@ -1,0 +1,2 @@
+class IneligibleError(Exception):
+	pass
