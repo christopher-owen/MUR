@@ -15,7 +15,7 @@ Tool written in Python to download comics from Marvel Unlimited.
 - F-string-free; may also work on Python 2.
 
 # Setup
-**A subscripton is required to use this tool.**  
+**A subscripton is required to use MUR.**  
 1. Login to [Marvel](http://www.marvel.com/).
 2. Install ["cookies.txt" Chrome extension](https://chrome.google.com/webstore/detail/cookiestxt/njabckikapfpffapmjgojcnbfjonfjfg).
 3. Dump cookies to txt file (current tab only).
