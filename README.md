@@ -21,8 +21,6 @@ Download a single booklet and convert to PDF:
 
 Download multiple booklets, convert to CBZ and write booklet metadata to JSON file:   
 `MUR.py -u https://www.marvel.com/comics/issue/... https://www.marvel.com/comics/issue/... -f cbz -m`
-
-**Be sure to CD into MUR's directory before calling it.**
 ```
 usage: mur.py [-h] -u [URL [URL ...]] -f {cbz,pdf} [-m]
 
