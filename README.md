@@ -26,10 +26,10 @@ Your cookies may become unusable after a long while; just repeat the dumping pro
 # Usage
 MUR may only be used via CLI.
 
-Download a single comic and convert to PDF:   
+Download a single comic and export to PDF:   
 `MUR.py -u https://www.marvel.com/comics/issue/67930/captain_america_2018_12 -f pdf`
 
-Download two comics, convert to CBZ and write comic's metadata to JSON file:   
+Download two comics, export to CBZ and write comic's metadata to JSON file:   
 `MUR.py -u https://www.marvel.com/comics/issue/... https://www.marvel.com/comics/issue/... -f cbz -m`
 ```
 usage: mur.py [-h] -u [URL [URL ...]] -f {cbz,pdf} [-m]
