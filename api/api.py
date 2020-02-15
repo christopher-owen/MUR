@@ -21,7 +21,7 @@ class Client:
 	
 	def get_id(self, url):
 		r = self.session.get(url)
-		regex = r'digital_comic_id :  "(([0-9]{5}))"'
+		regex = r'digital_comic_id :  "(([0-9]+))"'
 		return re.search(regex, r.text).group(1)
 	
 	def make_call(self, epoint, params=None):
