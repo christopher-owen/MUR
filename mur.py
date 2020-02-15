@@ -89,7 +89,7 @@ def dir_setup(tmp_dir, dl_dir):
 def check_url(url):
 	regexes=[
 		r'http[s]://(read).marvel.com/#/book/([0-9]{5}$)',
-		r'http[s]://(www).marvel.com/comics/issue/([0-9]{5})/.+'
+		r'http[s]://(www).marvel.com/comics/issue/([0-9]+)/.+'
 	]
 	for regex in regexes:
 		match = re.match(regex, url)
